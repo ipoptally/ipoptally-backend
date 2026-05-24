@@ -1,0 +1,16 @@
+{
+  "name": "ipoptally-demo-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "@fastify/cors": "^10.0.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "fastify": "^5.0.0"
+  }
+}
